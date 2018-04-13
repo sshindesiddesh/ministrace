@@ -7,7 +7,3 @@
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
-
-int do_child(int argc, char **argv);
-int do_trace(pid_t child);
-int wait_for_syscall(pid_t child);
