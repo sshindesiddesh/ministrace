@@ -19,4 +19,4 @@ all: $(OBJS)
 clean:
 	$(AT)rm -f $(ODIR)/*.o
 	$(AT)rm -rf $(ODIR)
-	$(AT)rm -rf pbproxy
+	$(AT)rm -rf ministrace
